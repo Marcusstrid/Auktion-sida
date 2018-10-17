@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: #F6F6F6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,p {
+  margin: 0;
+  text-align: center;
+  color: #333333;
+  padding: 3px;
+}
+
+p{
+  color: #55555c;
+
+}
+
+h1 {
+  padding: 50px;
+}
+
+h2{
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: center;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+.auktion-div {
+  background: #b9b0b0;
+  padding: 25px;
+  margin: 15px;
+  min-height: 300px;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnav > div{
+  margin: 0 10px;
+}
+
+.topnav input[type=text] {
+ padding: 8px;
+ font-size: 17px;
+ border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 8px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.sort-button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sort-button:hover {opacity: 1}
+
+.input-container{
+  padding: 6px;
+  border: none;
+  width: 8%;
+  background-color: white;
+}
+.bid-container{
+  margin-top: 15px;
+}
+.bid-button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 6px;
+  margin: 0 3px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bid-button:hover {opacity: 1}
+
+.bid-over{
+  font-size: 25px;
+  font-style: bold;
+}

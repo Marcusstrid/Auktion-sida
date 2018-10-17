@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>auktionssajt</title>
+      <script src="scripts/api-get-data.js" defer></script>
+      <script src="scripts/api-post-data.js" defer></script>
+      <script src="scripts/main.js" defer></script>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <h1>Välkommen till Nackowskis</h1>
+      <div class="topnav">
+         <div class="search-container">
+            <input type="text" id="Search" type="text" placeholder="Sök.." name="search" >
+            <button class="button" id="button" type="submit"><i class="fa fa-search"></i></button>
+         </div>
+         <button id="sort-price" class="sort-button">Pris</button>
+         <button id="sort-date" class="sort-button">Datum</button>
+      </div>
+      <div id="searchResult"></div>
+      <div id="titel" class="container"></div>
+      <div class="clear-fix"></div>
+   </body>
+</html>

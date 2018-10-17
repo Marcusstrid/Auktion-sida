@@ -1,2 +1,1 @@
-# Auktion-sida
-auktion sida 
+# auktionsajt
